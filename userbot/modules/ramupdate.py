@@ -55,7 +55,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
         if HEROKU_APP_NAME is None:
             await event.edit(
                 '`[HEROKU]: Harap Siapkan Variabel` **HEROKU_APP_NAME** `'
-                ' untuk dapat deploy perubahan terbaru dari RAM-USERBOT.`'
+                ' untuk dapat deploy perubahan terbaru dari SULTAN-UBOT.`'
             )
             repo.__del__()
             return
@@ -65,7 +65,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
                 break
         if heroku_app is None:
             await event.edit(
-                f'{txt}\n`Kredensial Heroku tidak valid untuk deploy RAM-UBOT dyno.`'
+                f'{txt}\n`Kredensial Heroku tidak valid untuk deploy SULTAN-UBOT dyno.`'
             )
             return repo.__del__()
         await event.edit(f'`{REPO_NAME}:'
@@ -100,7 +100,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
         if BOTLOG:
             await event.client.send_message(
                 BOTLOG_CHATID, "#BOT \n"
-                "`RAM-UBOT Berhasil Di Update`")
+                "`SULTAN-UBOT Berhasil Di Update`")
 
     else:
         await event.edit('`[HEROKU]:'
@@ -128,7 +128,7 @@ async def update(event, repo, ups_rem, ac_br):
     if BOTLOG:
         await event.client.send_message(
             BOTLOG_CHATID, "#BOT \n"
-            "**RAM-UBOT Telah Di Perbarui ツ**")
+            "**SULTAN-UBOT Telah Di Perbarui ツ**")
         await asyncio.sleep(100)
         await event.delete()
 
@@ -236,9 +236,9 @@ async def upstream(event):
 CMD_HELP.update({
     'update':
     ".update"
-    "\nUsage: Untuk Melihat Pembaruan Terbaru RAM-UBOT."
+    "\nUsage: Untuk Melihat Pembaruan Terbaru SULTAN-UBOT."
     "\n\n.update one"
-    "\nUsage: Memperbarui RAM-UBOT."
+    "\nUsage: Memperbarui SULTAN-UBOT."
     "\n\n.update all"
-    "\nUsage: Memperbarui RAM-UBOT Dengan Cara Deploy Ulang."
+    "\nUsage: Memperbarui SULTAN-UBOT Dengan Cara Deploy Ulang."
 })
