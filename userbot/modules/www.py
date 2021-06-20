@@ -1,5 +1,5 @@
 # Copyright (C) 2019 The Raphielscape Company LLC.
-# RAM-UBOT MINTA
+# SULTAN-UBOT MINTA
 # Licensed under the Raphielscape Public License, Version 1.d (the "License");
 # you may not use this file except in compliance with the License
 """ Userbot module containing commands related to the \
@@ -151,7 +151,7 @@ async def redis(pong):
     await asyncio.sleep(1)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**KONTOOLLLL!!**\n**KEKUATAN KONTOL** : `%sms`\n**DURASI KONTOL** : `{uptime}🕛`" % (duration))
+    await pong.edit(f"**KEKUATAN!!**\n**KEKUATAN WOI** : `%sms`\n**DURASI WOI** : `{uptime}🕛`" % (duration))
 
 
 @register(outgoing=True, pattern="^Speed$")
