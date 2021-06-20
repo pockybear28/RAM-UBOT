@@ -1,4 +1,4 @@
-<a href="https://www.instagram.com/pockybear28?r=nametag"><img src="https://images.cooltext.com/5534445.png" width="516" height="211" alt="  SULTAN-UBOT" /></a>
+<a href="https://www.instagram.com/pockybear28?r=nametag"><img src="https://telegra.ph/file/c758215e05856361e5546.jpg" width="516" height="211" alt="  SULTAN-UBOT" /></a>
 
 <p align="center">
   <a href="https://github.com/pockybear28/SULTAN-UBOT/fork">
