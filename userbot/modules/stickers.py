@@ -24,8 +24,8 @@ from userbot.events import register
 
 
 KANGING_STR = [
-    "BERUSAHA MENCURY TIKEL INI! HAHAHA",
-    "GUA NYOLONG TIKEL LU YA NGENTOTTTT!",
+    "IZIN AMBIL TIKEL INI YA! HAHAHA",
+    "GUA AMBIL TIKEL LU YA GESS!",
 ]
 
 
@@ -175,7 +175,7 @@ async def kang(args):
                         return await args.edit(
                             "`Sticker telah dibuat ke pack baru !"
                             "\nIni Pack Yang Baru Saja Anda Buat !"
-                            f"Berhasil Mencuri!\n\n╭✠━━━━❖━━━━✠╮\n            [TEKAN](t.me/addstickers/{packname})\n╰✠━━━━❖━━━━✠╯\n\nUntuk Melihat Sticker Anda.",
+                            f"Berhasil Mengambil!\n\n╭✠━━━━❖━━━━✠╮\n            [TEKAN](t.me/addstickers/{packname})\n╰✠━━━━❖━━━━✠╯\n\nUntuk Melihat Sticker Anda.",
                             parse_mode="md",
                         )
                 if is_anim:
@@ -242,7 +242,7 @@ async def kang(args):
                 await bot.send_read_acknowledge(conv.chat_id)
 
         await args.edit(
-            f"Berhasil Mencuri!\n\n╭✠━━━━❖━━━━✠╮\n            [TEKAN](t.me/addstickers/{packname})\n╰✠━━━━❖━━━━✠╯\n\nUntuk Melihat Sticker Anda.",
+            f"Berhasil Mengambil!\n\n╭✠━━━━❖━━━━✠╮\n            [TEKAN](t.me/addstickers/{packname})\n╰✠━━━━❖━━━━✠╯\n\nUntuk Melihat Sticker Anda.",
             parse_mode="md",
         )
 
