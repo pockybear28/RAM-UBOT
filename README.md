@@ -23,7 +23,7 @@
 
 
 # JANGAN BINGUNG BUAT DEPLOY!
-[![Deploy](https://telegra.ph/file/be5a4a2cb6aac37ca7945.jpg)](https://t.me/ootspambot)
+[![Deploy](https://telegra.ph/file/c758215e05856361e5546.jpg)](https://t.me/userbotmaker)
 
 
 <h3 align="center">REPO SULTAN-UBOT DIBUAT KARNA LAGI GABUT AJA SI HAHA.</h3>
@@ -53,6 +53,7 @@
 ## Credit
 TERIMAKASIH UNTUK
 
+*   [SULTAN](https://github.com/pockybear28) - 👳SULTAN-USERBOT👳
 *   [VICKY](https://github.com/vckyou) - ⚡Geez-Userbot⚡
 *   [RaphielGang](https://github.com/RaphielGang) - Telegram-Paperplane
 *   [AvinashReddy3108](https://github.com/AvinashReddy3108) - PaperplaneExtended
