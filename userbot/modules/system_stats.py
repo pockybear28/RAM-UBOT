@@ -1,4 +1,4 @@
-# System Stats RAM-UBOT
+# System Stats SULTAN-UBOT
 
 import asyncio
 from asyncio import create_subprocess_exec as asyncrunapp
@@ -159,7 +159,7 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**☛**RAM-UBOT Versi:** \n "
+            "**☛**SULTAN-UBOT Versi:** \n "
             f"{verout}"
             "\n**☛**Revisi:**\n "
             f"{revout}"
@@ -241,7 +241,7 @@ async def amireallyalive(alive):
         f"┣• `✨ Modules  :`{len(modules)} \n"
         f"╰✠╼━━━━━━❖━━━━━━━✠╯\n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n"
-        f"[𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌]({IG_ALIVE}) || [{REPO_NAME}](https://github.com/ramadhani892/RAM-UBOT) || [𝐆𝐑𝐎𝐔𝐏](t.me/ootspambot) \n"
+        f"[𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌]({IG_ALIVE}) || [{REPO_NAME}](https://github.com/pockybear28/SULTAN-UBOT) || [𝐆𝐑𝐎𝐔𝐏](t.me/userbotmaker) \n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰")
     if ALIVE_LOGO:
         try:
@@ -278,7 +278,7 @@ async def amireallyalive(alive):
         f"❃ **Versi Bot**      ➥ `7.0` \n"
         f"❃ **Modul**           ➥ `{len(modules)}` \n\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
-        f"[{REPO_NAME}](https://github.com/ramadhani892/RAM-UBOT) || [𝗚𝗥𝗢𝗨𝗣](t.me/ootspambot) || [𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠]({IG_ALIVE})\n"
+        f"[{REPO_NAME}](https://github.com/pockybear28/SULTAN-UBOT) || [𝗚𝗥𝗢𝗨𝗣](t.me/userbotmaker) || [𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠]({IG_ALIVE})\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ **")
     if ALIVE_LOGO:
         try:
@@ -319,12 +319,12 @@ async def amireallyalive(alive):
         f"┣|• `🐉 Python   :`Ver {python_version()} \n"
         f"╰✠╼━━━━━━❖━━━━━━━✠╯ \n"
         f"╭✠╼━━━━━━❖━━━━━━━✠╮ \n"
-        f"┣|• `Branch      :`RAM-UBOT \n"
-        f"┣|• `Bot Ver     :`7.0 \n"
-        f"┣|• `Modules     :`{len(modules)} Modules \n"
+        f"┣|• `👳Branch      :`SULTAN-UBOT \n"
+        f"┣|• `⚙️Bot Ver     :`7.0 \n"
+        f"┣|• `📝Modules     :`{len(modules)} Modules \n"
         f"╰✠╼━━━━━━❖━━━━━━━✠╯ \n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n"
-        f"[{REPO_NAME}](https://github.com/ramadhani892/RAM-UBOT) || [𝐆𝐑𝐎𝐔𝐏](t.me/ootspambot) || [𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌]({IG_ALIVE}) \n"
+        f"[{REPO_NAME}](https://github.com/pockybear28/SULTAN-UBOT) || [𝐆𝐑𝐎𝐔𝐏](t.me/userbotmaker) || [𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌]({IG_ALIVE}) \n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰")
     if ALIVE_LOGO:
         try:
