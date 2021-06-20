@@ -646,23 +646,10 @@ with bot:
 
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
-        @tgbot.on(events.InlineQuery)  # pylint:disable=E0602
-        async def inline_handler(event):
-            builder = event.builder
-            result = None
-            query = event.text
-            if event.query.user_id == uid and query.startswith("@Ram_ubot"):
-                buttons = paginate_help(0, dugmeler, "backme")
-                result = builder.photo(
-                    file=ramlogo,
-                    link_preview=False,
-                    text=f"DAH ABIS ABANG NYA MAU BALIK!! **".format(
-                        len(dugmeler),
-                    ),
-                    buttons=[
-                        [custom.Button.inline("Go Back" data="backme")]
-                    ]
-                )
+        @tgbot.on(events.CallbackQuery(data=b"close"))
+        async def close(event):
+            await event.edit("DAH ABIS ABANG NYA MAU PULANG!", buttons=Button.clear())
+
 
     except BaseException:
         LOGS.info(
