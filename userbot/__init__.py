@@ -659,7 +659,9 @@ with bot:
                     text=f"DAH ABIS ABANG NYA MAU BALIK!! **".format(
                         len(dugmeler),
                     ),
-                    buttons=[[custom.Button.inline("Go Back" data="backme"]],
+                    buttons=[
+                        [custom.Button.inline("Go Back" data="backme")]
+                    ]
                 )
 
     except BaseException:
