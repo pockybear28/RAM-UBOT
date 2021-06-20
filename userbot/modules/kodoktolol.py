@@ -1,8 +1,8 @@
 # Yang Hapus Besok Mati Aminnn
-# Port By @Vckyouuu
-# Piki mintaa yaaa
+# Port By @suppnigga
+# sultan mintaa yaaa
 # Mks sm sm
-# Rama ganteng mks sm sm
+# sultan ganteng mks sm sm
 
 
 from telethon.errors import ChatSendInlineForbiddenError, ChatSendStickersForbiddenError
