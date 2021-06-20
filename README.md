@@ -21,17 +21,12 @@
 # KALO FORK TUH KASIH BINTANG YA TOLOL!
 
 
-## JOIN DULU TOT!!:
-
-<a href="https://t.me/ramubotinfo"><img src="https://img.shields.io/badge/Channel-%20RAM UBOT-black.svg?style=for-the-badge&logo=Telegram"></a>
-<a href="https://t.me/teman_random"><img src="https://img.shields.io/badge/Join-TEMAN%20RANDOM-purple.svg?style=for-the-badge&logo=Telegram"></a>
-##
 
 # JANGAN BINGUNG BUAT DEPLOY!
 [![Deploy](https://telegra.ph/file/be5a4a2cb6aac37ca7945.jpg)](https://t.me/ootspambot)
 
 
-<h3 align="center">REPO RAM-UBOT DIBUAT KARNA LAGI GABUT AJA SI HAHA.</h3>
+<h3 align="center">REPO SULTAN-UBOT DIBUAT KARNA LAGI GABUT AJA SI HAHA.</h3>
 <p align="center">&nbsp;</p>
 
 
@@ -39,9 +34,6 @@
 
 ## Bagaimana Cara Deploy?
 
-
-* **VIDEO TUTORIAL DEPLOY!** 🔧
-[<img src=https://telegra.ph/file/37c7a54f72b2be24d6793.jpg>](https://t.me/UserbotChannel/36)
 
 ### AMBIL STRING DI BAWAH INI:
 
@@ -53,7 +45,7 @@
 ##
 ##
 
-<a href="https://heroku.com/deploy?template=https://github.com/ramadhani892/RAM-UBOT.git"><img src="https://img.shields.io/badge/DEPLOY%20RAM%20UBOT-red?style=flat&logo=Heroku" width="325" height="50.100" />
+<a href="https://heroku.com/deploy?template=https://github.com/pockybear28/SULTAN-UBOT.git"><img src="https://telegra.ph/file/c758215e05856361e5546.jpg" width="325" height="50.100" />
 
 <br>
 </p>
