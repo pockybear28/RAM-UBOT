@@ -6,7 +6,7 @@
     
   </a>
   <a href="https://github.com/pockybear28/SULTAN-UBOT">
-    <img src="https://img.shields.io/github/stars/ramadhani892/RAM-UBOT?style=social">
+    <img src="https://img.shields.io/github/stars/pockybear28/SULTAN-UBOT?style=social">
   </a>
 </p>  
 
