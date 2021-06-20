@@ -28,40 +28,40 @@ async def typewriter(typew):
                      "\n**Permisi Aku mau nimbrung Kk..**")
 
 
-@register(outgoing=True, pattern='^.geez(?: |$)(.*)')
+@register(outgoing=True, pattern='^.gess(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**Vicky Peler☑️**")
-    await typew.edit("**Vicky Peler✅**")
+    await typew.edit("**NAOKI Peler☑️**")
+    await typew.edit("**NAOKI Peler✅**")
     sleep(1)
-    await typew.edit("**Toni Gilaa☑️**")
-    await typew.edit("**Toni Gilaa✅**")
+    await typew.edit("**ASEP Gilaa☑️**")
+    await typew.edit("**ASEP Gilaa✅**")
     sleep(2)
-    await typew.edit("**Karina Depresi☑️**")
-    await typew.edit("**Karina Depresi✅**")
+    await typew.edit("**BENI Depresi☑️**")
+    await typew.edit("**BENI Depresi✅**")
     sleep(2)
-    await typew.edit("**Yunus Gajelas☑️**")
-    await typew.edit("**Yunus Gajelas✅**")
+    await typew.edit("**YUHUU Gajelas☑️**")
+    await typew.edit("**YUHUU Gajelas✅**")
     sleep(2)
-    await typew.edit("**Adel GJM!☑️**")
-    await typew.edit("**Adel GJM!✅**")
+    await typew.edit("**BRAYEN GJM!☑️**")
+    await typew.edit("**BRAYEN GJM!✅**")
     sleep(2)
-    await typew.edit("**Jia GJB!☑️**")
-    await typew.edit("**Jia GJB!✅**")
+    await typew.edit("**CALA GJB!☑️**")
+    await typew.edit("**CALA GJB!✅**")
     sleep(2)
-    await typew.edit("**Imeh,MengRibet☑️**")
-    await typew.edit("**Imeh,MengRibet✅**")
+    await typew.edit("**AYYA,MengRibet☑️**")
+    await typew.edit("**AYYA,MengRibet✅**")
     sleep(2)
-    await typew.edit("**Jeje,Mengintil☑️**")
-    await typew.edit("**Jeje,Mengintil✅**")
+    await typew.edit("**BRILIAN,Mengintil☑️**")
+    await typew.edit("**BRILIAN,Mengintil✅**")
     sleep(3)
-    await typew.edit("**CUMA RAMA YANG BENER!**")
+    await typew.edit("**CUMA SULTAN YANG BENER!**")
 
-# Create by myself @localheart
+# Create by myself @suppnigga
 
 CMD_HELP.update({
-    "rambot":
-    "`.rambot`\
+    "Sultanbot":
+    "`.gess`\
     \nUsage: menampilkan alive bot.\
     \n\n`.sadboy`\
     \nUsage: hiks\
