@@ -1,5 +1,5 @@
-# Port By @VckyouuBitch From Geez-Projects
-# # Copyright (C) 2021 Geez-Project
+# Port By @suppnigga From Userbotmaker
+# # Copyright (C) 2021 Userbotmaker
 from userbot.events import register
 from userbot import CMD_HELP
 import asyncio
@@ -18,7 +18,7 @@ async def _(event):
                 t = await event.ban_time(t)
             except BaseException:
                 return await event.edit("`Incorrect Format`")
-    await event.edit(f"`Kebanyakan fake hidup lu ngentot!`")
+    await event.edit(f"`Kebanyakan fake hidup lu Hahaha!`")
     await event.edit(f"`Memulai Fake Typing {t} detik.`")
     async with event.client.action(event.chat_id, "typing"):
         await asyncio.sleep(t)
