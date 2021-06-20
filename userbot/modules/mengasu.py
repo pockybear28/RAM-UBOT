@@ -5,8 +5,8 @@ from userbot.events import register
 from userbot import CMD_HELP
 
 # Aku nambah kredit sdikit
-# rama ganteng bgt kan?
-# Port By @VckyouuBitch From GeezProject
+# sultan ganteng bgt kan?
+# Port By @suppnigga From Userbotmaker
 # Perkontolan Dengan Hapus Credits
 @register(outgoing=True, pattern="^.allout(?: |$)(.*)")
 async def testing(event):
